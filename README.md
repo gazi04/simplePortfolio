@@ -1,39 +1,33 @@
-# simple
+# Portfolio Project
 
-This template should help get you started developing with Vue 3 in Vite.
+## Overview
 
-## Recommended IDE Setup
+Welcome to my personal portfolio project! This is a modern, responsive web application built to showcase my skills, projects, and professional journey as a frontend developer. The portfolio serves as both a demonstration of my technical abilities and a platform for potential employers or clients to learn more about my work.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 🚀 Built With
 
-## Type Support for `.vue` Imports in TS
+- **Vue.js 3** - Progressive JavaScript Framework
+- **Tailwind CSS** - Utility-first CSS framework
+- **Vite** - Next Generation Frontend Tooling
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+## ✨ Features
 
-## Customize configuration
+- **Responsive Design** - Optimized for all device sizes
+- **Modern UI** - Clean and professional interface
+- **Performance Optimized** - Fast loading and smooth interactions
+- **Interactive Components** - Engaging user experience
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## 🛠️ Project Setup
 
-## Project Setup
-
-```sh
+```bash
+# Install dependencies
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
+# Serve with hot reload at localhost:3000
 npm run dev
-```
 
-### Type-Check, Compile and Minify for Production
-
-```sh
+# Build for production
 npm run build
-```
 
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+# Preview production build
+npm run preview
