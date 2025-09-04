@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import Hero from '../components/Hero.vue'
+</script>
+
 <template>
-  <h2>HOME view</h2>
+  <Hero />
 </template>
