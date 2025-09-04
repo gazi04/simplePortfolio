@@ -1,4 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=PT+Sans+Caption:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap');
 @import 'tailwindcss';
-@plugin "daisyui" {
+
+@plugin 'daisyui' {
   themes: pastel --default;
+}
+
+@theme {
+  --font-arimo: 'arimo', 'doto';
+  --font-pt: 'PT Sans Caption', 'doto';
 }
