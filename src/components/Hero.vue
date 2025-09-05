@@ -9,14 +9,14 @@ import TechStack from './TechStack.vue'
         src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
         class="max-w-sm rounded-lg shadow-2xl"
       />
-      <div>
-        <h1 class="text-5xl font-bold">Box Office News!</h1>
-        <p class="py-6">
-          Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
-          exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.
+      <div class="pr-6">
+        <h1 class="text-7xl font-bold tracking-tight">Junior Laravel Developer 👋</h1>
+        <p class="py-6 text-gray-500 tracking-wide">
+          Gazmend Halili here, a Laravel developer based in Gjilan, Kosovo. 📍
+          <br>
+          I specialize in crafting robust web solutions.
         </p>
         <TechStack />
-        <button class="btn btn-primary">Get Started</button>
       </div>
     </div>
   </div>

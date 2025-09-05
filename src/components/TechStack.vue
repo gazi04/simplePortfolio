@@ -42,13 +42,12 @@ const technologies: Technology[] = [
 
 <template>
   <div class="flex flex-wrap items-center gap-2 mb-8">
-    <b class="mr-4">Tech Stack &nbsp|</b>&nbsp &nbsp
+    <b class="mr-4 text-lg">Tech Stack &nbsp|</b>
     <div v-for="(tech, index) in technologies" :key="tech.name" class="flex items-center">
       <div
         class="flex items-center gap-2 px-2 py-1 rounded group hover:bg-base-200 transition-colors"
       >
-        <img :src="tech.logo" :alt="tech.name" class="w-5 h-5 object-contain" />
-        <span class="text-sm font-medium">{{ tech.name }}</span>
+        <img :src="tech.logo" :alt="tech.name" class="w-10 h-10 object-contain" />
       </div>
 
       <span v-if="index < technologies.length - 1" class="text-base-300 mx-1"> </span>
