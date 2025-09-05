@@ -28,8 +28,7 @@ const experiences = [
   <section id="about" class="py-16 bg-base-100">
     <div class="container mx-auto px-4 max-w-4xl">
       <div class="text-center mb-12">
-        <h2 class="text-5xl font-extrabold mb-4 text-base-content tracking-tight">About Me</h2>
-        <p class="text-gray-500 font-bold tracking-wide">Get to know me better</p>
+        <h2 class="text-5xl font-extrabold mb-4 text-base-content tracking-tight">Get to know me better</h2>
       </div>
 
       <div class="tabs justify-center mb-8 font-semibold tracking-wider">
@@ -60,14 +59,14 @@ const experiences = [
             <img
               src="../../public/workBench.jpg"
               alt="Gazmend Halili"
-              class="w-50 h-50 object-cover rounded-lg shadow-md"
+              class="w-80 h-80 object-cover rounded-lg shadow-md"
             />
 
             <div class="flex-1">
-              <h3 class="text-2xl font-bold text-base-content mb-4 tracking-tight">
+              <h3 class="text-3xl font-bold text-base-content mb-4 tracking-tight">
                 Devoted Junior Laravel Developer based in Gjilan, Kosovo 📍
               </h3>
-              <p class="text-gray-500 text-lg leading-relaxed tracking-wide">
+              <p class="text-gray-500 text-xl leading-relaxed tracking-wide">
                 As a committed Junior Laravel Developer  I possess a well-rounded skill set that includes PHP, MySQL, and Laravel for backend development, and Vue.js with Tailwind CSS for the frontend. I am diligent in writing clean, optimized, and maintainable code, and I'm a fast learner when it comes to utilizing new tools and techniques to build scalable and reliable web applications.
               </p>
             </div>
@@ -82,7 +81,7 @@ const experiences = [
             class="p-4 bg-base-200 rounded-lg hover:bg-base-300 transition-colors"
           >
             <div class="flex justify-between items-center">
-              <span class="font-bold tracking-wide text-base-content">{{ skill.name }}</span>
+              <span class="font-bold tracking-wide text-base-content text-lg">{{ skill.name }}</span>
               <span class="font-bold tracking-wide badge badge-primary badge-lg">{{ skill.level }}</span>
             </div>
           </div>
